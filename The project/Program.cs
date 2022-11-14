@@ -57,14 +57,15 @@ string[] FormResultArray(string[] array, int targetLength)
     return resultingArray;
 }
 
-//
-Console.WriteLine("Введите цифру, которая является размером массива");
+
+Console.WriteLine("Введите цифру, которая является размером массива"); //Пользователь задает длину массива
 int numberOfElements = Convert.ToInt32(Console.ReadLine());
 
-string[] userArray = CreateArrayElements(numberOfElements);
-Console.WriteLine("Введенный пользователем массив:");
-PrintArray(userArray);
 
-string[] resultArray = FormResultArray(userArray, 3);
+string[] userArray = CreateArrayElements(numberOfElements);//Пользователь вводит с клавиатуры элементы массива
+Console.WriteLine("Введенный пользователем массив:");
+PrintArray(userArray);//Изначальный массив выводится в консоль
+
+string[] resultArray = FormResultArray(userArray, 3);//Происходит отбор в новый массив по длине элемента
 Console.WriteLine("Массив с отобранными элементами:");
-PrintArray(resultArray);
+PrintArray(resultArray);//Результирующий массив выводится в консоль
