@@ -2,7 +2,7 @@
 // 1. Формирует массив из строк, длина которых меньше либо равна 3 символа.
 // (первоначальный массив вводится с клавиатуры или задается на старте выполнения алгоритма)
 
-
+//Создание массива элементов
 String[] CreateArrayElements(int numberOfElems)
 {
     string[] array = new string[numberOfElems];
@@ -14,6 +14,7 @@ String[] CreateArrayElements(int numberOfElems)
     return array;
 }
 
+//Вывод массива в консоль
 void PrintArray(string[] array)
 {
     Console.Write("[");
@@ -25,6 +26,7 @@ void PrintArray(string[] array)
     Console.WriteLine("]");
 }
 
+//Вычисление размера итогового массива
 int amountOfElemsInResultArray(string[] array, int targetLength)
 {
     int amountOfElements = default;
@@ -38,6 +40,7 @@ int amountOfElemsInResultArray(string[] array, int targetLength)
     return amountOfElements;
 }
 
+//Отбор элементов, соответствующих заданной длине, в результирующий массив
 string[] FormResultArray(string[] array, int targetLength)
 {
     int numberOfElements = 0;
@@ -54,11 +57,14 @@ string[] FormResultArray(string[] array, int targetLength)
     return resultingArray;
 }
 
+//
 Console.WriteLine("Введите цифру, которая является размером массива");
 int numberOfElements = Convert.ToInt32(Console.ReadLine());
 
 string[] userArray = CreateArrayElements(numberOfElements);
+Console.WriteLine("Введенный пользователем массив:");
 PrintArray(userArray);
 
 string[] resultArray = FormResultArray(userArray, 3);
+Console.WriteLine("Массив с отобранными элементами:");
 PrintArray(resultArray);
