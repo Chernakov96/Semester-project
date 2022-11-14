@@ -1,0 +1,15 @@
+C:\Users\79773\Desktop\Semester project\Project git\The project\bin\Debug\net6.0\The project.exe
+C:\Users\79773\Desktop\Semester project\Project git\The project\bin\Debug\net6.0\The project.deps.json
+C:\Users\79773\Desktop\Semester project\Project git\The project\bin\Debug\net6.0\The project.runtimeconfig.json
+C:\Users\79773\Desktop\Semester project\Project git\The project\bin\Debug\net6.0\The project.dll
+C:\Users\79773\Desktop\Semester project\Project git\The project\bin\Debug\net6.0\The project.pdb
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.csproj.AssemblyReference.cache
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.AssemblyInfoInputs.cache
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.AssemblyInfo.cs
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.csproj.CoreCompileInputs.cache
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.dll
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\refint\The project.dll
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.pdb
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\The project.genruntimeconfig.cache
+C:\Users\79773\Desktop\Semester project\Project git\The project\obj\Debug\net6.0\ref\The project.dll
