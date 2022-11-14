@@ -16,4 +16,4 @@
 
 ## Блок схема
 Ниже представлена схема работы алгоритма
-![Scheme](Execution scheme.png)
+![scheme](ExecutionScheme.png)
